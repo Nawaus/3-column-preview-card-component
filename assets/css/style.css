@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  min-height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +49,7 @@ body {
   padding: 50px;
 }
 
-h1 {
+h2 {
   display: flex;
   color: var(--Very-light-gray-background-headings-buttons);
   font-family: "Big Shoulders Display", cursive;
@@ -57,7 +57,7 @@ h1 {
 }
 
 p {
-  width: 180px;
+  max-width: 180px;
   position: relative;
   bottom: 40px;
   font-size: 0.9rem;
@@ -68,52 +68,50 @@ p {
   word-spacing: 4px;
 }
 
-button {
-  height: 50px;
+.btn-learn-more a {
+  height: 20px;
   text-decoration: none;
   background-color: var(--Very-light-gray-background-headings-buttons);
   border: none;
-  padding: 15px 30px 15px 30px;
+  padding: 10px 20px 10px 20px;
   border-radius: 50px;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
 }
 
-.first-box button {
+.first-box a {
   color: var(--bright-orange);
   transition: all ease-out 0.5s;
 }
-.first-box button:hover {
+
+.first-box a:hover {
   background: var(--bright-orange);
   color: var(--Very-light-gray-background-headings-buttons);
   border: solid 1px var(--Very-light-gray-background-headings-buttons);
-  padding: 15px 30px 15px 30px;
   transition: all ease-in-out 0.3s;
 }
 
-.second-box button {
+.second-box a {
   color: var(--dark-cyan);
   transition: all ease-out 0.5s;
 }
 
-.second-box button:hover {
+.second-box a:hover {
   background: var(--dark-cyan);
   color: var(--Very-light-gray-background-headings-buttons);
   border: solid 1px var(--Very-light-gray-background-headings-buttons);
-  padding: 15px 30px 15px 30px;
   transition: all ease-in-out 0.3s;
 }
 
-.third-box button {
+.third-box a {
   color: var(--very-dark-cyan);
   transition: all ease-out 0.5s;
 }
 
-.third-box button:hover {
+.third-box a:hover {
   background: var(--very-dark-cyan);
   color: var(--Very-light-gray-background-headings-buttons);
   border: solid 1px var(--Very-light-gray-background-headings-buttons);
-  padding: 15px 30px 15px 30px;
   transition: all ease-out 0.3s;
 }
 
@@ -122,6 +120,7 @@ button {
   justify-content: center;
   font-family: "Poppins", sans-serif;
 }
+
 a {
   color: var(--dark-cyan);
 }
